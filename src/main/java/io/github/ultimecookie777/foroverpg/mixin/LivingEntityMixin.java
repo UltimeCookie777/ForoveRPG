@@ -11,9 +11,7 @@ public abstract class LivingEntityMixin {
 
     @Inject(method = "makePoofParticles", at=@At("HEAD"), cancellable = true)
     public void makePoofParticlesInject(CallbackInfo ci) {
-
         ci.cancel();
-
     }
 
 }

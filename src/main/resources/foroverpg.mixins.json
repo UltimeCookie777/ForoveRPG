@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "ForoveRPG.refmap.json",
   "mixins": [
+    "ItemMixin",
     "LivingEntityMixin"
   ],
   "client": [
